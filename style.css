@@ -1,0 +1,361 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* nav */
+
+.nav{
+    height: 55px;
+    width: 100%;
+}
+.nav ul{
+    display: flex;
+    margin-left: 50px;
+}
+.nav a{
+    text-decoration: none;
+    color: #616161;
+    font-size: 12px;
+}
+.nav a:hover{
+    text-decoration: underline 2px black;
+}
+.nav ul li{
+    margin-right: 25px;
+    color: #616161;
+    font-size: 13px;
+}
+.nav img{
+    margin-top: 15px;
+    margin-right: 25px;
+}
+.nav li{
+    margin-top: 14px;
+}
+.ul #img{
+    margin-top: auto;
+}
+.ul #img1{
+    margin-top: -5px;
+}
+.ul{
+    padding-left: 330px;
+}
+
+
+/* banner */
+
+#wht{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+#wht button{
+    background-color: #0275d8;
+    border: 0;
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 2px;
+}
+#blk{
+    position: absolute;
+    padding: 40px;
+    top: 12%;
+    left: 8%;
+    background-color: white;
+    height: 300px;
+    width: 600px;
+}
+#blk button{
+    background-color: #1265ae;
+    border: 0;
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 2px;
+}
+#wht #new{
+    background-color: #ffb900;
+    color: black;
+    width: 50px;
+    height: 30px;
+    font-size: 18px;
+    margin-left: 1px;
+}
+
+
+
+/* icons */
+
+.icons{
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+.icons div{
+    margin: 20px;
+}
+.a1 img{
+    margin-left: 78px;
+}
+.a2 img{
+    margin-left: 18px;
+}
+.a3 img{
+    margin-left: 35px;
+}
+.a4 img{
+    margin-left: 60px;
+}
+.icons div a{
+    font-weight: bolder;
+    color: #1265ae;
+}
+
+/* cards */
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    height: 545px;
+    width: 325px;
+    margin: 12px;
+    --bs-card-border-radius:0;
+}
+.card h3{
+    padding: 20px;
+}
+.card p{
+    margin-left: 20px;
+}
+.card h6{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.card-1 button{
+    width: 140px;
+    height: 38px;
+    margin-left: 20px;
+    background-color: #1265ae;
+    color: white;
+    border: 0;   
+    border-radius: 2px;
+}
+.card-1 a{
+    text-decoration: none;
+}
+.card-2 button{
+    width: 220px;
+    height: 38px;
+    margin-left: 20px;
+    background-color: #1265ae;
+    color: white;
+    border: 0; 
+    margin-top: 40px;  
+    border-radius: 2px;
+}
+.card-2 h3{
+    padding: 20px;
+}
+.card-2 p{
+    margin-left: 20px;
+}
+.card-3 button{
+    width: 155px;
+    height: 38px;
+    margin-left: 20px;
+    background-color: #1265ae;
+    color: white;
+    border: 0; 
+    margin-top: 180px;
+    border-radius: 2px;
+}
+.card-4 button{
+    width: 155px;
+    height: 38px;
+    margin-left: 20px;
+    background-color: #1265ae;
+    color: white;
+    border: 0; 
+    margin-top: 155px;
+    border-radius: 2px;
+}
+
+/* banner2 */
+
+.banner img{
+    margin-left: 74px;
+    margin-top: 90px;
+}
+.banner div{
+    position: absolute;
+    top: 205%;
+    left: 12%;
+}
+#pass h2{
+    color: white;
+}
+#pass p{
+    color: white;
+}
+#pass button{
+    background-color: #1265ae;
+    border: 0;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+}
+.business h1{
+    margin-top: 100px;
+    margin-left: 73px;
+}
+.cardss{
+    display: flex;
+    justify-content: center;
+}
+.card1{
+    height: 470px;
+    width: 325px;
+    margin: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+}
+.card1 h3{
+    padding: 20px;
+}
+.card1 p{
+    margin-left: 20px;
+}
+.card1 h6{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.card-5 button{
+    width: 110px;
+    height: 38px;
+    margin-left: 20px;
+    background-color: #1265ae;
+    color: white;
+    border: 0;   
+    border-radius: 2px;
+    margin-top: 60px;
+}
+.card-6 button{
+    width: 120px;
+    height: 38px;
+    margin-left: 20px;
+    background-color: #1265ae;
+    color: white;
+    border: 0;   
+    border-radius: 2px;
+}
+.card-6 h3{
+    padding: 20px;
+}
+.card-6 p{
+    margin-left: 20px;
+    margin-top: -12px;
+}
+.card-7 button{
+    width: 165px;
+    height: 38px;
+    margin-left: 20px;
+    background-color: #1265ae;
+    color: white;
+    border: 0; 
+    margin-top: 84px;
+    border-radius: 2px;
+}
+.card-8 button{
+    width: 230px;
+    height: 38px;
+    margin-left: 20px;
+    background-color: #1265ae;
+    color: white;
+    border: 0; 
+    margin-top: 37px;
+    border-radius: 2px;
+}
+#new{
+    background-color: #ffb900;
+    color: black;
+    width: 50px;
+    height: 30px;
+    font-size: 18px;
+    margin-left: 1px;
+}
+
+/* facebook */
+
+.face{
+    display: flex;
+}
+.face h6{
+    margin-left: 73px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.face img{
+    margin-top: 92px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer1{
+    margin: 40px;
+}
+.footer1 a{
+    text-decoration: none;
+    color: #616161;
+    font-size: 12px;
+}
+.footer1 li{
+    margin-top: 8px;
+}
+.footer1 b{
+    color: #616161;
+    font-size: 14;
+}
+#footer{
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+.footer2 ul{
+    display: flex;
+}
+.footer2 a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 12px;
+    color: #616161;
+}
+.footer2 #ul{
+    margin-left: 350px;
+}
+.footer2 ul{
+    padding-bottom: 10px;
+    margin-left: 60px;
+}
+.footer2 a:hover{
+    text-decoration: underline ;
+}
+.footer1 a:hover{
+    text-decoration: underline ;
+}
+.footer2 img{
+    margin-top: -5px;
+    margin-right: 5px;
+}
